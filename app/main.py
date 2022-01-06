@@ -36,7 +36,7 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"message": "Hello Worldkkkk"}
+    return {"message": "Hello World"}
 
 
 # @app.get("/sqlalchemy")
